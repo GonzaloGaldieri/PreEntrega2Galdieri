@@ -1,0 +1,77 @@
+/* estilos de la home */
+body{
+    background-color: aquamarine;
+}
+/* estilos de header home */
+header h1{
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+/* estilos de menú */
+.menu ul li{
+    display: inline-block;
+    text-align: right;
+    
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-left: 3rem;
+}
+header nav ul li{
+    list-style: none;
+    background-color: lightblue;
+    
+}
+
+header nav ul li a{
+    color: blue
+    
+}
+
+main p{
+        text-decoration: underline;
+}
+main div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    text-align: right;
+}
+
+/* estilos de promos */
+.promos div ul{
+    display: inline;
+}
+
+/* tamaño de imagenes productos */
+.jl ul{
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+}
+
+.sua div ul{
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+
+}
+
+.lav {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+}
+
+.des {
+    max-width: 100%;
+    max-height: 100%;
+    text-align:center;
+}
+
